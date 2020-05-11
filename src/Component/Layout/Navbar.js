@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import propsTypes from 'prop-types';
+import {Link} from 'react-router-dom';
 
 class Navbar extends Component
 {
@@ -27,6 +28,17 @@ class Navbar extends Component
                     </i>
                     {this.props.title}
                 </h3> 
+
+               
+                    <ul className="Menu-Link">
+                        <li>
+                            <Link to="/about">ABOUT</Link>
+                        </li>
+                        <li>
+                            <Link to="/">HOME</Link>
+                        </li>
+                    </ul>
+               
             </div>
         )
     }

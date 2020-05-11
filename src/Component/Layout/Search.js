@@ -24,7 +24,7 @@ export class Search extends Component
         else
         {  
             console.log(this.state.text)
-            this.props.searchUsers(this.state.text);
+            this.props.searchUsers(this.state.text,this.props.Static_User);
             this.setState({text:''})
         }
     }

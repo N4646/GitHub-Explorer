@@ -7,11 +7,26 @@
 }
 .Navbar
 {
-  background-color: rgb(131, 0, 0);
+  background-color:#320F60;
   font-size: 1.5rem;
   padding: 20px;
   width: 100%;
   color: white;
+}
+.Menu-Link li
+{
+  padding: 5px;
+  margin-top: -38px;
+  list-style-type: none;
+  float: right;
+}
+.Menu-Link a
+{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: none;
+  color: #ffffff;
 }
 
 .Card
@@ -21,6 +36,13 @@
   padding: 20px;
   position: relative;
   top: 1rem;
+}
+.Card a
+{
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 2px;
+  color: white;
 }
 
 .Grid
@@ -41,14 +63,15 @@
   width: 50%;
   padding: 10px;
   margin-top: 25px;
-  border: 0px solid white;
+  border: 1px solid gray;
+  background-color: #FCF9FD;
 }
 
 .Clear
 {
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color:#A593C7;
+  color: #FCF9FD;
   height: 40px;
   border: 0px solid black;
   margin-top: 10px;
@@ -57,11 +80,109 @@
 .Alert
 {
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color:#A593C7;
+  color: #FCF9FD;
   height: 40px;
   border: 0px solid black;
   margin-top: 10px;
   text-align: center;
   padding-top:10px;
+}
+
+.About-Info
+{
+  color:#734BBE;
+}
+.About-Info h2
+{
+  margin-top: 10px;
+}
+.About-Info h4
+{
+  margin-top: 450px;
+}
+.About-Info h5
+{
+  margin-top: 25px;
+}
+
+.ProfileImg img
+{
+  margin:30px 1114px 0px 30px;
+  border: 2px solid gray;
+  border-radius: 200px;
+}
+
+.ProfileBio 
+{
+  width: 20%;
+  position: fixed;
+  margin: 25px 1114px 0px 10px;
+  line-height: 40px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.ProfileBio a
+{
+  text-decoration: none;
+  border: 1px solid gray;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  margin-left: 32px;
+  position: relative;
+  top: 15px;
+}
+
+.SideProfile
+{
+  width: 78%;
+  height: 100%;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  line-height: 40px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin: -220px 300px 0px 300px;
+  padding-left: 10px;
+}
+.Label label
+{
+  word-spacing: 1px;
+  margin: 10px;
+  margin-left: 0px;
+}
+.Label label:nth-child(1)
+{
+  color:white;
+  background-color:#0073aa;
+  border: 0px ;
+  border-radius: 5px;
+  padding: 5px;
+}
+.Label label:nth-child(2)
+{
+  color:white;
+  background-color: #64b450;
+  border: 0px ;
+  border-radius: 5px;
+  padding: 5px;
+}
+.Label label:nth-child(3)
+{
+  color:white;
+  background-color: #f06723;
+  border: 0px ;
+  border-radius: 5px;
+  padding: 5px;
+}
+.Label label:nth-child(4)
+{
+  color:white;
+  background-color: #555555;
+  border: 0px ;
+  border-radius: 5px;
+  padding: 5px;
 }

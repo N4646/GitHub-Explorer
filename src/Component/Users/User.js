@@ -8,13 +8,19 @@ class User extends Component
         return (
             <div className="Grid">
                 {
-                   this.props.Static_users.map(user =>
+                     console.log(this.props.Text+" Text From User Component")
+                }
+                {
+                     console.log(this.props.Static_users.login)
+                }
+                {
+                    this.props.Static_users.filter(name => name.login.toLowerCase().includes(this.props.Text.toLowerCase())).map(user =>
                         (
                             <Useritem key={user.id} user={user} />
                         ))
                 }
                 {
-                    this.props.Dynamic_users.map(user =>
+                    this.props.Dynamic_users.filter(name => name.login.toLowerCase().includes(this.props.Text.toLowerCase())).map(user =>
                         (
                             <Useritem key={user.id} user={user} />
                         ))
